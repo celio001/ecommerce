@@ -26,6 +26,11 @@
             {{ form.senha2.label()}}
             {{ form.senha2(class="form-control", placeholder="Informe confirmar sua senha Username")}}
             <br>
+            <div class="checkbox mb-3">
+                <h5> Você já possui login?</h5>
+                <a class="btn btn-sm btn-secondary" href="{{ url_for('page_login') }}" >Logar</a>
+            </div>
+            <br>
             <div class="d-grid">
                 {{ form.submit(class="btn btn-lg btn-success") }}
             </div>
