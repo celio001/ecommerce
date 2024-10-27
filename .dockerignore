@@ -1,0 +1,8 @@
+# .dockerignore
+*.log
+__pycache__/
+
+# Excluir arquivos README
+README
+README.md
+README.txt
